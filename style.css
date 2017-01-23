@@ -1,0 +1,242 @@
+@import "font-awesome-4.7.0/css/font-awesome.css";
+body{
+  padding: 0;
+  margin:0;
+}
+nav{
+  background-color: #28719a;
+  height: 60px;
+  margin-bottom: 50px;
+  width: 100%;
+  margin: 0px;
+
+}
+.profile{
+  float: right;
+  margin: 0;
+  padding: 18px;
+
+}
+.profile ul {
+  margin: 0;
+padding-right: 0px;
+}
+.profile li{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  float: left;
+  padding-top:0px;
+  margin: 0px;
+}
+li{
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px 10px 5px 10px;
+  transition: font-size .5s;
+}
+li{
+  font-size: 20px;
+
+}
+/*section{
+pad
+
+}*/
+.logopic{
+  float:left;
+  height: 100px;
+
+
+}
+div.legal{
+  background-color: #00adcc;
+  height:100px;
+  margin:0px;
+}
+div.legal{
+  font-size: 40px;
+
+}
+
+div.legal h3{
+  margin: 0px;
+  padding-top: 40px;
+  padding-right: : 60px;
+  padding-left: 60px;
+  border-radius: 60px;
+
+}
+/*body*/
+body{
+  background-color: #e6e4e2;
+  /*background-size: 2300px;*/
+  /*background-position: center;
+  background-size: cover;*/
+  font-family: 'Exo', sans-serif;
+}
+footer{
+  background-color: #1beeb5;
+  height:70px;
+  width: 100%;
+  font-size: 100%;
+  margin: 0px;
+  text-align: center;
+  clear: both;
+
+}
+
+ul .menu{
+  font-size: 5px;
+}
+/*.notif{
+background: #0accff;
+position: relative;
+top: -70px;
+left: -5px;
+background: #00f0ff;
+color: #000;
+margin: 0 auto;
+width: 20px;
+border-radius: 50%;
+text-align: center;
+padding: 3px 0px;
+padding-bottom: 5px;
+border: 2px solid #5685DA;
+}
+*/
+.jubrotan > h2{
+  font-size: 40px;
+}
+h2, .h2{
+  font-size: 30px;
+}
+h1, .h1 ,h2 .h2 , h3 .h3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.jumbotron {
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+body {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+h3 , .h3{
+  font-size: 24px;
+}
+.headersplit {
+    padding: 30px;
+    padding-top: 50px;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    color: :#fff;
+}
+.headersplit .jumbotron > h2 {
+    font-size: 40px;
+}
+/*box*/
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.btn:hover, .btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #2a6496;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 16px 30px;
+    font-size: 16px;
+    line-height: 1.33;
+}
+.btn-default {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: rgba(0,0,0,0.4) 0px 1px 1px;
+    box-shadow: rgba(0,0,0,0.4) 0px 1px 1px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+/*    border: 1px solid transparent;*/
+    border-radius: 5px;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from div.row.act
+.act {
+    color: #fff;
+}
+
+{
+    display: block;
+    text-align: -webkit-center;
+}
